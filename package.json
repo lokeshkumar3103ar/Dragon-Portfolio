@@ -53,5 +53,8 @@
     "tailwind-merge": "^3.5.0",
     "three": "^0.182.0",
     "three-stdlib": "^2.36.1"
+  },
+  "overrides": {
+    "whatwg-encoding": "npm:@exodus/bytes@latest"
   }
 }
