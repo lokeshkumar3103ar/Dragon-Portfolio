@@ -1,5 +1,5 @@
 "use client";
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Sparkles, ArrowRight } from 'lucide-react';
@@ -98,6 +98,16 @@ function SpiritCard({ spirit, index }: { spirit: typeof spirits[0]; index: numbe
 }
 
 export default function ForestHub() {
+  const [showHub, setShowHub] = useState(false);
+
+  useEffect(() => {
+    if (typeof document !== 'undefined' && document.referrer.includes('flarontech.com')) {
+      setShowHub(true);
+    }
+  }, []);
+
+  if (!showHub) return null;
+
   return (
     <section id="forest-hub" className="relative w-full bg-[#0a0a0c] border-t border-white/5 overflow-hidden">
       {/* Video background -cartoon forest */}

@@ -105,17 +105,17 @@ const domainPillars: GlassIconsItem[] = [
   {
     icon: <img src="/images/icons8-fire-120.svg" alt="Fire" className="w-10 h-10 object-contain drop-shadow-lg" />,
     color: 'red',
-    label: 'AI/ML Engineering',
+    label: 'Full Stack Engineering',
   },
   {
     icon: <img src="/images/icons8-flash-on-240.png" alt="Flash" className="w-10 h-10 object-contain drop-shadow-lg" />,
     color: 'orange',
-    label: 'Execution Speed',
+    label: 'Product Builder',
   },
   {
     icon: <img src="/images/icons8-forest-1500.webp" alt="Forest" className="w-10 h-10 object-contain drop-shadow-lg" />,
     color: 'green',
-    label: 'Ecosystem Building',
+    label: 'AI',
   },
   {
     icon: <img src="/images/icons8-leaf-240.svg" alt="Leaf" className="w-10 h-10 object-contain drop-shadow-lg" />,
@@ -136,9 +136,9 @@ const domainPillars: GlassIconsItem[] = [
 
 /* ── Domain descriptions (below pillar cards) ── */
 const domainDescriptions: Record<string, string> = {
-  'AI/ML Engineering': 'PyTorch, TensorFlow, OpenCV - building & deploying intelligent systems',
-  'Execution Speed': 'Ship fast, iterate faster - prototypes in days, not months',
-  'Ecosystem Building': 'Creating tools, teams, and platforms that compound over time',
+  'Full Stack Engineering': 'Next.js, TypeScript, Backend - building end-to-end intelligent products',
+  'Product Builder': 'Ship fast, iterate faster - prototypes in days, not months',
+  'AI': 'Creating intelligent systems, LLM agents, and AI-first applications',
   'Growth & Learning': 'Mastering new domains on demand with AI as a force multiplier',
   'Code Intelligence': 'AI-augmented coding, automated pipelines, and smart tooling',
   'Data Science': 'Pandas, NumPy, SQL - turning raw data into actionable insights',

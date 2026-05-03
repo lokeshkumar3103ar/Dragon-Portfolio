@@ -16,11 +16,11 @@ interface CardData {
 const cards: CardData[] = [
   {
     number: '01',
-    role: 'Lead AI/ML Engineer & Team Lead',
+    role: 'AI Product Engineer & Tech Lead',
     org: 'Imitate Labs',
     duration: 'Jul 2025 – Present',
     bullets: [
-      'Architected the full-stack Creator Style Replication AI using CNN-ViT + LoRA',
+      'Architected the full-stack Creator Style Replication AI — an end-to-end video pipeline combining FFmpeg, OpenCV, RAG, VLMs, and LLMs for automated AI content generation',
       'Led cross-functional engineering team from zero to production MVP',
       'Built internal OS dashboard (IL-Internal-OS) deployed on Vercel',
     ],

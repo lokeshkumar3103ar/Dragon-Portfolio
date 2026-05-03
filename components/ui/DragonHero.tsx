@@ -122,9 +122,9 @@ function EmberParticles() {
    Kinetic typography, cycling subtitle, CTAs
 ═══════════════════════════════════════════════════ */
 const SUBTITLE_ROLES = [
-  'AI Generalist',
-  'Builder of Anything',
-  'Prompt Architect',
+  'AI Full Stack Engineer',
+  'AI First Native Builder',
+  'End to End',
 ];
 
 /* ═══════════════════════════════════════════════════

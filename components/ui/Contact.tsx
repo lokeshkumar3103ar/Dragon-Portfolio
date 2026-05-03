@@ -41,9 +41,9 @@ const links = [
   },
   {
     icon: <Globe className="size-5" />,
-    label: 'Imitate Labs',
-    value: 'www.imitatelabs.ai',
-    href: 'https://www.imitatelabs.ai',
+    label: 'Flaron Tech',
+    value: 'flarontech.com',
+    href: 'https://flarontech.com',
     color: '#ffc107',
   },
 ];

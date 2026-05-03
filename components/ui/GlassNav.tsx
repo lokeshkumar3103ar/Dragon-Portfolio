@@ -77,19 +77,19 @@ export default function GlassNav() {
       >
         <div className="px-6 flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <a href="https://flarontech.com" className="flex items-center space-x-3 cursor-pointer group">
             <Image
               src="/assets/dragon logo vector1.svg"
               alt="The Dragon"
               width={40}
               height={40}
-              className="w-10 h-10 drop-shadow-[0_0_8px_rgba(230,46,45,0.5)]"
+              className="w-10 h-10 drop-shadow-[0_0_8px_rgba(230,46,45,0.5)] group-hover:scale-105 transition-transform"
               priority
             />
-            <span className="font-heading text-xl tracking-wider text-white select-none">
+            <span className="font-heading text-xl tracking-wider text-white select-none group-hover:text-[#e62e2d] transition-colors">
               FLARON TECH
             </span>
-          </div>
+          </a>
 
           {/* Desktop Links */}
           <div className="hidden md:flex items-center space-x-6 text-xs font-medium tracking-widest text-white/70 uppercase">

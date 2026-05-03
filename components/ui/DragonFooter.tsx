@@ -57,7 +57,7 @@ export default function DragonFooter() {
             <a href="mailto:lokeshkumar3103ar@gmail.com" className="p-2 rounded-full text-white/30 hover:text-white/70 hover:bg-white/5 transition-all duration-300">
               <Mail className="size-4" />
             </a>
-            <a href="https://www.imitatelabs.ai" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full text-white/30 hover:text-white/70 hover:bg-white/5 transition-all duration-300">
+            <a href="https://flarontech.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full text-white/30 hover:text-white/70 hover:bg-white/5 transition-all duration-300">
               <Globe className="size-4" />
             </a>
           </div>

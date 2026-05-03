@@ -30,14 +30,14 @@ const capabilities = [
 ];
 
 const domains = [
-  { label: 'AI/ML Engineering', sub: 'CNN-ViT, LoRA, Transformers' },
-  { label: 'Full Stack Development', sub: 'Next.js, FastAPI, Docker' },
+  { label: 'Full Stack Engineering', sub: 'Next.js, FastAPI, End-to-end architectures' },
+  { label: 'AI Product Builder', sub: 'Zero to One MVP, Scaling AI Apps' },
   { label: 'Prompt Architecture', sub: 'System design for LLMs' },
-  { label: 'Computer Vision', sub: 'MTCNN, Recognition, OCR' },
-  { label: 'Data Science', sub: 'Statistical Analysis, Pandas' },
   { label: 'MLOps & DevOps', sub: 'CI/CD, Docker, Azure' },
   { label: 'NLP & Conversational AI', sub: 'Whisper, RAG, Agents' },
   { label: 'Product Building', sub: 'Zero to One, 17+ projects' },
+  { label: 'Scalable and Production-Ready Systems', sub: ' Cloud deployments, DevOps practices, and end-to-end system design.'},
+  { label: 'AI Integration', sub: 'Integrating AI into existing systems'}
 ];
 
 export default function AILab() {
