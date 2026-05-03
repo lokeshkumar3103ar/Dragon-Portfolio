@@ -101,7 +101,18 @@ export default function ForestHub() {
   const [showHub, setShowHub] = useState(false);
 
   useEffect(() => {
-    if (typeof document !== 'undefined' && document.referrer.includes('flarontech.com')) {
+    // Check URL query param — set by the flarontech.com button link
+    const params = new URLSearchParams(window.location.search);
+    const isFromFlarontech = params.get('ref') === 'flarontech';
+
+    // Also check sessionStorage so a page refresh keeps it visible
+    const sessionFlag = sessionStorage.getItem('from_flarontech') === 'true';
+
+    if (isFromFlarontech) {
+      // Persist across refreshes for this tab session
+      sessionStorage.setItem('from_flarontech', 'true');
+      setShowHub(true);
+    } else if (sessionFlag) {
       setShowHub(true);
     }
   }, []);
